@@ -12,7 +12,7 @@ https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p1.png
 https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p2.png
 https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p3.png
 https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p4.png
-
+https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p5.png
 
 ## Tech Stack
 
