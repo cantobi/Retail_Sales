@@ -1,11 +1,10 @@
-# Retail_Sales_Intelligence
+# Retail Sales Performance & Profitability Analysis (2009–2012)
 
-# The Profitability Paradox: Why Half of All Orders Are Losing Money
+## Executive Summary
 
-## Overview
+This project provides an end-to-end analytics solution evaluating business performance, revenue trends, customer segmentation, and delivery logistics across multi-year retail transaction data. Using **MySQL** for raw data extraction, cleaning, and exploratory data analysis (EDA), alongside **Power BI** and **Excel** for executive visualization, the analysis identifies critical revenue drivers, margin leakage, and operational bottlenecks.
 
-An end-to-end sales analytics project tracing 1,482 orders (2009 to 2012) through a MySQL cleaning and EDA pipeline into an interactive Power BI dashboard. The company looks healthy on paper, $2.6M in sales and a 10.9% overall profit margin, but the real story is underneath: more than half of all orders lose money, and the losses concentrate in one category, one sub-category, and one region.
-
+---
 ## Dashboard Preview
 
 ![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p1.png)
@@ -14,17 +13,44 @@ An end-to-end sales analytics project tracing 1,482 orders (2009 to 2012) throug
 ![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p4.png)
 ![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p5.png)
 
-## Tech Stack
+---
+## Key Performance Indicators (KPIs)
 
-- **MySQL**: data cleaning pipeline (trimming inconsistent text fields, imputing missing margin values, flagging imputed priorities and zero-day deliveries), dimension tables for business rules (shipping targets, discount policy, priority scoring), and exploratory SQL queries used to validate the story before a single chart was built
-- **Power BI**: star-schema data model with relationships between the fact table and dimension tables, custom DAX measures, and a four-page interactive dashboard (Executive Overview, Profitability, Customer & Segment, Logistics & Delivery)
+* **Total Sales:** $2.63M
+* **Total Profit Margin:** 10.91%
+* **Total Unique Customers:** 536
+* **Average Order Value (AOV):** $2.69K
+* **Order SLA Median Delivery Time:** 2 Days
 
-## Goals
+---
 
-- Trace a real dataset through a full pipeline, not just visualize raw numbers straight out of a spreadsheet
-- Find where profitability actually breaks down underneath a seemingly healthy top-line figure
-- Build a data model with proper relationships so business-rule-driven metrics (VIP orders, on-time delivery, discount compliance) are calculated correctly rather than hardcoded
-- Practice building a dashboard someone could act on, not just look at
+## Core Findings & Strategic Insights
+
+### 1. Revenue Scale vs. Margin Friction
+
+* **Sales Decline:** Total sales declined by **39.8% overall from 2009 through 2012**, with the most recent YoY drop sitting at -10.1%.
+* **Profit Drivers:** Technology generated the highest profit contribution ($162.9K total profit at a 16% margin), led by Office Machines in the West Region ($17.7K).
+* **Loss Leaders:** Tables and Bookcases generated significant margin drag, with Tables accounting for a net loss of $15.8K. Geographically, Furniture in the East region represents the single largest vulnerability (-$6.3K profit).
+
+### 2. Customer & Segment Behavior
+
+* **VIP Reliance:** VIP orders account for **64.28% ($1.69M)** of total sales volume, highlighting high dependence on top-tier accounts.
+* **Corporate Dominance:** The Corporate segment serves as the main revenue engine (~$955K revenue).
+* **Top Contributors:** Jasper Cacioppo represents the top revenue contributor ($48.13K), while Tony Sayre leads overall order volume (7 orders).
+
+### 3. Fulfillment & SLA Performance
+
+* **Base Logistics:** Core turnaround is efficient, maintaining a 2-day median fulfillment window. Delivery Truck serves as the fastest shipping mode (1.89 days average).
+* **Logistics Vulnerabilities:** Isolated Regular Air shipments suffered severe delays reaching up to **92 days**, well outside acceptable operational SLA windows.
+
+---
+
+## Technical & Data Integrity Considerations
+
+* **Shipping Cost Ambiguity:** During the exploratory phase, it was identified that raw net profit calculations may not consistently account for variable shipping costs. To preserve baseline data integrity without making unverified assumptions, the primary profit margin metric (10.91%) was left untouched, with a recommendation for a formal financial audit.
+* **Data Cleansing & EDA (MySQL):** Handled missing values, standardized product/regional categorization, and executed spatial and conditional aggregations to isolate VIP customer orders from standard transactions.
+
+---
 
 ## Business Questions This Dashboard Answers
 
@@ -52,6 +78,24 @@ Actual delivery time is benchmarked against a target set per shipping mode (Expr
 **Is there a seasonal pattern worth planning around?**
 Yes. December is the strongest month ($315K in sales) and July is the weakest ($130K), consistent with holiday demand and a summer slowdown in B2B purchasing.
 
+
+---
+
+## Recommended Action Plan
+
+1. **Plug Profit Leakage:** Re-evaluate pricing tiers, cap maximum allowable discounts on Tables and Bookcases, and review supplier/shipping costs for Furniture in the East region.
+2. **Institute VIP Retention Programs:** Establish dedicated account management workflows for high-frequency and high-value client tiers (the 64.28% VIP revenue bucket).
+3. **Audit Logistics Failures:** Partner with logistics teams to isolate the root cause of extreme Regular Air shipping delays (up to 92 days) to determine whether they stem from data entry errors or fulfillment breaches.
+
+---
+
+## Tech Stack
+
+* **Database Engine:** MySQL (Data Cleansing, Transformation, EDA)
+* **Visualization Tools:** Power BI, Microsoft Excel
+* **Data Modeling:** DAX, Data Cleaning Pipelines, Spatial & Aggregation Queries
+
+---
 ## Dataset
 
 Order-level sales data spanning January 2009 to December 2012 across four US regions (Central, East, South, West), covering order details, customer segment, product category and sub-category, shipping mode, discount, and profit.
