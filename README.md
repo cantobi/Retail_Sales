@@ -8,11 +8,11 @@ An end-to-end sales analytics project tracing 1,482 orders (2009 to 2012) throug
 
 ## Dashboard Preview
 
-https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p1.png
-https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p2.png
-https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p3.png
-https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p4.png
-https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p5.png
+![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p1.png)
+![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p2.png)
+![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p3.png)
+![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p4.png)
+![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p5.png)
 
 ## Tech Stack
 
