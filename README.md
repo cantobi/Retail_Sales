@@ -9,7 +9,7 @@ This project provides an end-to-end analytics solution evaluating business perfo
 
 ![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%201.png)
 ![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%202.png)
-![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p3.png)
+![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%203.png)
 ![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p4.png)
 ![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p5.png)
 
