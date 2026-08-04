@@ -8,6 +8,7 @@ An end-to-end sales analytics project tracing 1,482 orders (2009 to 2012) throug
 
 ## Dashboard Preview
 
+https://github.com/cantobi/Retail_Sales-/blob/main/Sales%20p1.png
 
 
 
