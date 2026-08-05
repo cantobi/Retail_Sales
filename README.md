@@ -101,5 +101,6 @@ Yes. December is the strongest month ($315K in sales) and July is the weakest ($
 Order-level sales data spanning January 2009 to December 2012 across four US regions (Central, East, South, West), covering order details, customer segment, product category and sub-category, shipping mode, discount, and profit.
 
 ---
-##
+## Full interactive visuals
+on power bi data stories 
 https://app.powerbi.com/view?r=eyJrIjoiNTNhOTQ2OGYtMjE1Ni00N2Y4LThjYTktMDI5MGEzOTZjODIyIiwidCI6ImY1MTg1YWY3LTQ2YmUtNDRhNS05MDkyLWM4ZWMwZmQ4ZDBhNyJ9
