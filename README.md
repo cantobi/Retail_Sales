@@ -11,7 +11,7 @@ This project provides an end-to-end analytics solution evaluating business perfo
 ![image](https://github.com/cantobi/Retail_Sales/blob/main/Retail%20Sales%20Project/Sales%202.png)
 ![image](https://github.com/cantobi/Retail_Sales/blob/main/Retail%20Sales%20Project/Sales%203.png)
 ![image](https://github.com/cantobi/Retail_Sales/blob/main/Retail%20Sales%20Project/Sales%204.png)
-![image](https://github.com/cantobi/Retail_Sales-/blob/main/Sales%205.png)
+![image](https://github.com/cantobi/Retail_Sales/blob/main/Retail%20Sales%20Project/Sales%205.png)
 
 ---
 ## Key Performance Indicators (KPIs)
