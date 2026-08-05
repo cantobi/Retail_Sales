@@ -86,6 +86,7 @@ Yes. December is the strongest month ($315K in sales) and July is the weakest ($
 1. **Plug Profit Leakage:** Re-evaluate pricing tiers, cap maximum allowable discounts on Tables and Bookcases, and review supplier/shipping costs for Furniture in the East region.
 2. **Institute VIP Retention Programs:** Establish dedicated account management workflows for high-frequency and high-value client tiers (the 64.28% VIP revenue bucket).
 3. **Audit Logistics Failures:** Partner with logistics teams to isolate the root cause of extreme Regular Air shipping delays (up to 92 days) to determine whether they stem from data entry errors or fulfillment breaches.
+4. **Data Integrity & Decision Making:** Addressed ambiguity in net profitability calculations. Because it was unconfirmed whether shipping costs were fully deducted from net profit, I deliberately left the core profit margin metric untouched to preserve baseline data integrity, while documenting this gap for executive review.
 
 ---
 
