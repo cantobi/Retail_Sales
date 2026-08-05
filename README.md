@@ -76,8 +76,7 @@ Orders are split into VIP and Standard. A VIP order is one where profit is great
 Actual delivery time is benchmarked against a target set per shipping mode (Express Air, Regular Air, Delivery Truck) to calculate an on-time delivery rate, rather than relying on one flat threshold across all modes.
 
 **Is there a seasonal pattern worth planning around?**
-Yes. December is the strongest month ($315K in sales) and July is the weakest ($130K), consistent with holiday demand and a summer slowdown in B2B purchasing.
-
+Yes. December is the strongest month ($315K in sales) and July is the weakest ($130K), consistent with holiday demand.
 
 ---
 
